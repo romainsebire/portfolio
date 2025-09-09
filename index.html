@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romain Sebire - Portfolio</title>
+  <link rel="icon" href="images/rssansfond.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="top-bar">
+      <div class="nav-left">
+        <img src="images/rs.png" alt="Logo du site RS">
+      </div>
+
+      <div class="nav-center">
+       <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="competences.html">Compétences</a>
+       <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="nav-right">
+        <h1>Portfolio</h1>
+      </div>
+    </nav>
+    
+    <section class="presentation">
+      <div class="presentation-container">
+        <div class="badge">Présentation</div>
+        <div class="presentation-text">
+          <h1>Bonjour, je m'appelle <strong>Romain Sebire</strong>.</h1>
+          <img src="images/photoprofil1.jpg" alt="Photo de Romain Sebire" class="profile-photo">
+          <p>
+            Je suis actuellement en 3<sup>ème</sup> et dernière année du cycle d'ingénieur généraliste à l'<strong>école des Mines d'Alès</strong>, dans le département <strong>Informatique et Intelligence Artificielle</strong>.<br><br>
+            Ce portfolio a pour objectif de présenter les différents projets de <strong>Data Mining</strong> et de <strong>Machine Learning</strong> sur lesquels j'ai eu l'occasion de travailler lors de mes missions en entreprise ou dans le cadre de mes études.
+          </p>
+          <div class="button-group">
+            <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+            En Savoir Plus
+            </button>
+           <button class="outline" onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+              Voir Mes Projets
+            </button>
+          </div>
+          <div class="skills">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>Data Mining</span>
+            <span>TensorFlow</span>
+            <span>PyTorch</span>
+            <span>Scikit-learn</span>
+            <span>Pandas</span>
+          </div>
+
+          <div class="scroll-down" aria-label="Aller à la section suivante" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+            ↓
+          </div>
+        </div>
+      </div>
+    </section>
+    
+</body>
+</html>
